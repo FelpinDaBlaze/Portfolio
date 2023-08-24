@@ -5,19 +5,20 @@ export default function Header() {
     <div>
       <header>
         
-        <img src='barbiezinha.webp' alt="Logo"></img>
+        <img src='logoFelipe.png' alt="Logo"></img>
+        <h2 className='nome1'>Felipe Sarro</h2>
         
         <nav className="navbar">
           <ul>
             
             <li>
-              <a href="#">Notícia</a>
+              <a href="#">Home</a>
             </li>
             <li>
               <a href="#">Sobre</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#">Serviços</a>
             </li>
           </ul>
         </nav>

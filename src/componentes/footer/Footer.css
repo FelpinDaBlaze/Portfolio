@@ -1,7 +1,7 @@
 footer {
-    background-color: #ff52bf;
+    background-color: #33ccff;
     color: white;
-    padding: 20px 0;
+    padding: 0px 0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -15,6 +15,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   
   .div1 {
@@ -58,15 +59,12 @@ footer {
   .ul2 {
     display: flex;
     align-items: center;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    margin-top: 60px;
   }
-  
   .ul2 li {
     margin-right: 10px;
   }
-  
   .ul2 img {
     width: 40px;
     height: 40px;
