@@ -10,7 +10,7 @@ export default function Main() {
           Olá pessoas,
         </h1>
 
-        <h2 className='h2-1'>Eu sou Estudante do</h2>
+        <h2 className='h2-1'>Eu sou estudante do</h2>
 
         <h2 className='h2-2'>IFMS Campus de</h2>
 
