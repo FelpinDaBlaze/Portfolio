@@ -1,0 +1,18 @@
+.h1-1{
+    color: #445964;
+    text-align: left;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 24px;
+}
+.h2-1{
+    font-size: 24px; /* Tamanho de fonte ajustado */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #445964;
+    text-transform: uppercase;
+    letter-spacing: -2px; /* Espaçamento entre as letras ajustado */
+    display: block; /* Cada palavra em uma linha separada */
+    line-height: 1.4; /* Espaçamento vertical entre as linhas */
+}
