@@ -60,10 +60,11 @@ footer {
     display: flex;
     align-items: center;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 40px;
+
   }
   .ul2 li {
-    margin-right: 10px;
+    margin-right: 20px;
   }
   .ul2 img {
     width: 40px;
