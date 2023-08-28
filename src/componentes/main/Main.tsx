@@ -13,10 +13,12 @@ export default function Main() {
         <h1 className='h1-3'>Saiba mais sobre mim</h1>
       </div>
 
-      <div className='img2'>
-      <img src='homem.png' alt="pessoa"></img>
+
+      <div>
+      <img src='homem.png' alt="pessoa"  className='img2'></img>
       </div>
 
     </div>
+    
   );
 }

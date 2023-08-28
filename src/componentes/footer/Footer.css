@@ -1,12 +1,12 @@
 footer {
-    background-color: #33ccff;
+    background-color: #DFDFDF;
     color: white;
     padding: 0px 0;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgb(57, 56, 56);
   }
   
   .DivPrinc {
@@ -42,7 +42,7 @@ footer {
   }
   
   footer div ul li a {
-    color: white;
+    color: #445964;
     text-decoration: none;
     font-size: 20px;
     display: block;
