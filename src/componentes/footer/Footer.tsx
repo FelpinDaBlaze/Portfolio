@@ -32,7 +32,7 @@ export default function Footer() {
 
             <div>
                 <ul className='ul2'>
-                  <li><a href="#"><img src="Instagram.png"/></a></li>
+                  <li><a href="https://www.instagram.com/httpx.flp/?next=%2F"><img src="Instagram.png"/></a></li>
                   <li><a href="#"><img src="Linkedin.png"/></a></li>
                   <li><a href="#"><img src="Git.png"/></a></li>
                 </ul>
