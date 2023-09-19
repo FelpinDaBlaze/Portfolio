@@ -53,3 +53,36 @@
     max-width: 30%;
     height: auto;
 }
+
+.linha-fina {
+    width: 50%; /* Define a largura da linha como 50% da largura da página */
+    border-bottom: 1px solid #000; /* 1px define a espessura da linha, #000 define a cor (preto) */
+    margin: 0 auto; /* Centraliza horizontalmente o elemento com margens automáticas */
+    margin-top: 160px;
+}
+
+
+.content-main{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+.barrapesquisa{
+    height: 30px;
+    border: 1px solid #bebebe;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+.barrapesquisa:focus-visible{
+    outline: 1px solid rgba(28, 28, 191, 0.57);
+}
+.pesquisa{
+    margin-top: 20px;
+    margin-left: 153px;
+    padding: 50px;
+}
