@@ -55,11 +55,13 @@
 }
 
 .linha-fina {
-    width: 50%; /* Define a largura da linha como 50% da largura da página */
-    border-bottom: 1px solid #000; /* 1px define a espessura da linha, #000 define a cor (preto) */
-    margin: 0 auto; /* Centraliza horizontalmente o elemento com margens automáticas */
+    width: 50%; 
+    border-bottom: 1px solid #000; 
+    margin: 0 auto; 
     margin-top: 160px;
 }
+
+
 
 
 .content-main{
@@ -69,20 +71,32 @@
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
-
 }
-.barrapesquisa{
+
+.barrapesquisa {
     height: 30px;
+    width: 390px;
     border: 1px solid #bebebe;
-    width: 200px;
     border-radius: 5px;
     font-size: 1.4rem;
+    padding: 5px;
+    outline: none;
+    transition: border-color 0.3s; 
+}
+
+.barrapesquisa:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.barrapesquisa::placeholder {
+    color: #999; 
 }
 .barrapesquisa:focus-visible{
     outline: 1px solid rgba(28, 28, 191, 0.57);
 }
 .pesquisa{
-    margin-top: 20px;
-    margin-left: 153px;
+    margin-top: 30px;
+    margin-left: 680px;
     padding: 50px;
 }
