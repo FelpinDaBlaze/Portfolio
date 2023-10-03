@@ -42,27 +42,28 @@ const router = createBrowserRouter([
     element: (
       <>
      <Header />  
-            <h2 className='formulario-titulo'>Formulario para Contato</h2>
-          <form action="/pagina-processa-dados-do-form" method="post">
+          <div className='container'>
+          <h2 className='formulario-titulo'>Formulário para Contato</h2>
+          <form>
             <div>
-              <input type="text" placeholder='Nome' id="nome" />
+              <input type="text" placeholder='Nome'/>
             </div>
   
             <div>
-              <input type="email" placeholder='Email' id="email" />
+              <input type="email" placeholder='Email'/>
             </div>
 
             <div>
-              <input type="assunto" placeholder='Assunto' id="assunto" />
+              <input type="assunto" placeholder='Assunto'/>
             </div>
   
             <div>
-              <textarea id="msg"></textarea>
+              <textarea className='msg' placeholder='Mensagem'></textarea>
             </div>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" >Enviar</button>
           </form>
-
+          </div>
      <Footer />
       </>
     ),
