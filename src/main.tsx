@@ -3,6 +3,7 @@ import './main.css';
 import Header from './componentes/header/Header';
 import Footer from './componentes/footer/Footer';
 import Main from './componentes/main/Main';
+import Contato from './componentes/contato/Contato';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { render } from 'react-dom';
 
@@ -41,29 +42,8 @@ const router = createBrowserRouter([
     path: '/contato',
     element: (
       <>
-     <Header />  
-          <div className='container'>
-          <h2 className='formulario-titulo'>Formulário para Contato</h2>
-          <form>
-            <div>
-              <input type="text" placeholder='Nome'/>
-            </div>
-  
-            <div>
-              <input type="email" placeholder='Email'/>
-            </div>
-
-            <div>
-              <input type="assunto" placeholder='Assunto'/>
-            </div>
-  
-            <div>
-              <textarea className='msg' placeholder='Mensagem'></textarea>
-            </div>
-
-            <button type="submit" >Enviar</button>
-          </form>
-          </div>
+     <Header />
+     <Contato/>
      <Footer />
       </>
     ),
